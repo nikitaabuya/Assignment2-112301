@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- TextView to display received message -->
+    <TextView
+        android:id="@+id/receivedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No message received" />
+
+    <!-- EditText to send replies -->
+    <EditText
+        android:id="@+id/editTextSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter reply to send" />
+
+    <!-- Button to send replies -->
+    <Button
+        android:id="@+id/sendButtonSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A7D3A0"
+        android:text="Send" />
+</LinearLayout>
